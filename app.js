@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const database = require('./databaseConfig.js');
 const path = require('path');
-const port = process.env.PORT | 8080;
+const port = process.env.PORT || 8080;
 
 database.connect( _ => {
     app.use(bodyParser.json());
