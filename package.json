@@ -164,15 +164,7 @@
       "resolved": "https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.6.tgz",
       "version": "1.0.6"
     },
-    "cors": {
-      "integrity": "sha512-KIHbLJqu73RGr/hnbrO9uBeixNGuvSQjul/jdFvS/KFSIH1hWVd1ng7zOHx+YrEfInLG7q4n6GHQ9cDtxv/P6g==",
-      "requires": {
-        "object-assign": "^4",
-        "vary": "^1"
-      },
-      "resolved": "https://registry.npmjs.org/cors/-/cors-2.8.5.tgz",
-      "version": "2.8.5"
-    },
+    "cors": "^2.8.5",
     "css": {
       "integrity": "sha1-k4aBHKgrzMnuf7WnMrHioxfIo+c=",
       "requires": {
@@ -404,15 +396,7 @@
       "resolved": "http://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz",
       "version": "0.5.1"
     },
-    "mongodb": {
-      "integrity": "sha512-yNKwYxQ6m00NV6+pMoWoheFTHSQVv1KkSrfOhRDYMILGWDYtUtQRqHrFqU75rmPIY8hMozVft8zdC4KYMWaM3Q==",
-      "requires": {
-        "mongodb-core": "3.1.7",
-        "safe-buffer": "^5.1.2"
-      },
-      "resolved": "https://registry.npmjs.org/mongodb/-/mongodb-3.1.8.tgz",
-      "version": "3.1.8"
-    },
+    "mongodb": "^3.1.9",
     "mongodb-core": {
       "integrity": "sha512-YffpSrLmgFNmrvkGx+yX00KyBNk64C0BalfEn6vHHkXtcMUGXw8nxrMmhq5eXPLLlYeBpD/CsgNxE2Chf0o4zQ==",
       "requires": {
