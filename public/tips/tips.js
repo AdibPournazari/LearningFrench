@@ -1,4 +1,4 @@
-const tipsApiUrl = "http://localhost:8080/api/tips";
+const tipsApiUrl = "https://frenchlearning.herokuapp.com/api/tips";
 
 function getAllTips() {
     sendHttpRequest("GET", 
