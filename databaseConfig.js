@@ -1,5 +1,5 @@
 var MongoClient = require('mongodb').MongoClient;
-const connectionURL = 'mongodb://AdibFrench:PasswordFrench101@ds253243.mlab.com:53243/learningfrench';
+const connectionURL = process.env.MONGOLAB_URI;
 var db = {};
 var dbInstance;
 
